@@ -1,0 +1,9 @@
+1. Which class would you use to store your birthday in years, months, days, seconds, and nanoseconds?
+A - LocalDateTime or ZonedDateTime.
+ 
+
+2. What is the difference between a ZoneId and a ZoneOffset?
+A - Both ZoneId and ZoneOffset track an offset from Greenwich/UTC time, but the ZoneOffset class tracks only the 
+absolute offset from Greenwich/UTC. The ZoneId class also uses the ZoneRules to determine how an offset varies for
+a particular time of year and region.
+
